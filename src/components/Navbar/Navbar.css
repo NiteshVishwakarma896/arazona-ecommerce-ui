@@ -1,0 +1,131 @@
+.arazona-nav{
+    width: 100%;
+    height: fit-content;
+    padding: 0.8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.arazona-nav-logo{
+    width: fit-content;
+    padding-right: 2%;
+}
+.arazona-nav-logo > a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #000;
+    font-weight: 800;
+    text-decoration: none;
+}
+.arazona-nav-search{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 3rem;
+}
+.arazona-nav-search-box{
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: -1px 1px 16px -7px rgba(148,148,148,0.71);
+    -moz-box-shadow: -1px 1px 16px -7px rgba(148,148,148,0.71);
+    box-shadow: -1px 1px 16px -7px rgba(148,148,148,0.71);
+}
+.arazona-nav-search > .arazona-nav-search-box >input{
+    border: none;
+    padding: 1.25%;
+    width: 95%;
+    font-family: 'Poppins',sans-serif;
+    box-shadow: none;
+    border-radius: 6px;
+}
+.arazona-nav-search > .arazona-nav-search-box >button{
+    border: none;
+    width: 5%;
+    background-color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.arazona-nav-search > .arazona-nav-search-box >input::placeholder{
+    font-family: 'Poppins',sans-serif;
+}
+.arazona-nav-items{
+    width:14%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: auto;
+    padding: 8px 0px 8px 8px;
+}
+.arazona-nav-items >a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.MuiPaper-root{
+    background-color: rgb(255, 255, 255) !important;
+}
+.drawer-close-btn{
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+.drawer-close-btn > i{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000000 !important;
+}
+.drawer-contents{
+    width: 100%;
+    height: 100%;
+}
+.drawer-contents > ul{
+    list-style: none;
+    font-family: 'Poppins',sans-serif;
+    text-align: right;
+}
+.drawer-contents>ul>li{
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #2d2d2d;;
+    line-height: normal;
+    margin-bottom: 1.5%;
+    transition: 0.3s ease-in-out;
+}
+.drawer-contents>ul>li:hover{
+    color: #979797;
+}
+.drawer-contents >p{
+    width:fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 95%;
+    right: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+@media (max-width:960px) {
+    .arazona-nav-logo{
+        width: 50%;
+        padding-right: 2%;
+    }
+    .arazona-nav-items{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 0px;
+        margin-left: 25%;
+    }
+}

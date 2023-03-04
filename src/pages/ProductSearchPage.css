@@ -1,0 +1,95 @@
+.arazona-search-sidebar{
+    padding: 2%;
+}
+.arazona-search-sidebar > .arazona-search-category{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.arazona-search-sidebar >.arazona-search-category>h4{
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+.arazona-search-sidebar >.arazona-search-category>ul{
+    list-style: none;
+    padding-left: 4%;
+    margin-bottom: 8%;
+}
+.arazona-search-sidebar >.arazona-search-category>ul>li>.checkbox-category{
+    width: fit-content;
+    margin-right: 4%;
+}
+.arazona-search-sidebar >.arazona-search-category>ul>li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: normal;
+    font-size: 0.85rem;
+}
+.arazona-product-display-header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.arazona-product-display-header >div>p{
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+}
+.arazona-product-display-header >div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+}
+.arazona-product-display-header >div>.drop-down-select{
+    width: fit-content;
+    padding: 2% 2%;
+    border:none;
+    background-color: #fff;
+    box-shadow: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+.drop-down-select{
+    width: fit-content;
+    padding: 2% 2%;
+    border:none;
+    background-color: #fff;
+    box-shadow: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+.arazona-product-display-header >div>.drop-down-select *{
+    font-size: 0.9rem !important;
+}
+.drop-down-select *{
+    font-size: 0.9rem !important;
+}
+.filter-btn{
+    width: fit-content;
+    padding: 3% 8%;
+    background-color: #def4ff;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    box-shadow: 2px 2px 2px #00000015;
+}
+.filter-btn:hover{
+    background-color: #a4d8f3;
+}
+@media (max-width:960px) {
+    .arazona-product-display-header > span{
+        font-size: 0.8rem;
+    }
+}

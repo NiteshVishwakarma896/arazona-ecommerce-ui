@@ -1,0 +1,100 @@
+.arazona-category{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 5%;
+    padding: 4%;
+    border-bottom: 3px solid #efefef;
+}
+.arazona-category-title{
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    height: fit-content;
+    margin-bottom: 0.5%;
+}
+.arazona-category >p{
+    text-align: center;
+    font-size: 1.15rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #6f6f6f;
+    height: fit-content;
+}
+.arazona-category > .arazona-category-container{
+    width: 100%;
+    padding: 4% 0%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-items: center;
+}
+.arazona-category > .arazona-category-container > .arazona-category-item{
+    width: 170px;
+    height: 170px;
+    background-color: #ffe4b0;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.arazona-category > .arazona-category-container > .arazona-category-item:hover{
+    background-color: #ffcf76;
+}
+.arazona-category > .arazona-category-container > .arazona-category-item > .arazona-category-item-img{
+    width: 100px;
+    height: 100px;
+}
+.arazona-category > .arazona-category-container > .arazona-category-item > p{
+    height: fit-content;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+}
+@media (max-width:600px) {
+    .arazona-category > .arazona-category-container{
+        width: 100%;
+        padding: 4% 0%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.5fr;
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+        align-items: center;
+        justify-items: center;
+    }
+    .arazona-category >p{
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: #6f6f6f;
+        height: fit-content;
+        margin-bottom: 6%;
+    }
+}
+@media (max-width:1024px) and (min-width: 960px){
+    .arazona-category > .arazona-category-container{
+        width: 100%;
+        padding: 4% 0%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 0.5fr;
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+        align-items: center;
+        justify-items: center;
+    }
+    .arazona-category >p{
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: #6f6f6f;
+        height: fit-content;
+        margin-bottom: 6%;
+    }
+}
