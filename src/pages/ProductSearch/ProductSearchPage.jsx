@@ -2,11 +2,11 @@ import React, { useEffect } from 'react'
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
-import { headerColor } from '../config/theme';
-import { productsDetail } from '../utils/products';
-import ProductSearch from '../components/Product Card/ProductSearch';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import { headerColor } from '../../config/theme';
+import { productsDetail } from '../../utils/products';
+import ProductSearch from '../../components/Product Card/ProductSearch';
 import Drawer from '@mui/material/Drawer';
 import Divider from '@mui/material/Divider';
 import './ProductSearchPage.css';
